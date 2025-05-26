@@ -195,8 +195,6 @@ class NotificationLocalRepository implements SenderNotificationLocalService
               iOS: DarwinNotificationDetails()
           ),
           androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
-          uiLocalNotificationDateInterpretation:
-          UILocalNotificationDateInterpretation.absoluteTime,
           matchDateTimeComponents: DateTimeComponents.time
       );
     }catch(ex, trace){

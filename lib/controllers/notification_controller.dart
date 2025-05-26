@@ -440,8 +440,6 @@ class NotificationController extends GetxController implements GetxService {
               iOS: DarwinNotificationDetails()
           ),
           androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
-          uiLocalNotificationDateInterpretation:
-          UILocalNotificationDateInterpretation.absoluteTime,
           matchDateTimeComponents: DateTimeComponents.time);
 
     }catch(ex, trace){
